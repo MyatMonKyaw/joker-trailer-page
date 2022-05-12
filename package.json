@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  },
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./outputfile/joker.css --watch"
+  }
+}
