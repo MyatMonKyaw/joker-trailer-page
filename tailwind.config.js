@@ -1,10 +1,7 @@
 module.exports = {
-  content: ['./src/joker.html'],
+  content: ['./joker.html'],
   theme: {
     extend: {
-      dropShadow: {
-        'lg': '0 10px 8px rgba(22, 78, 99, 0.5)',
-      },
       animation: {
         'roll': 'roll 25s linear infinite',
       },
